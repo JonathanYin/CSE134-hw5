@@ -8,8 +8,6 @@ function Adder() {
     );
   }
   
-  ReactDOM.render(
-    React.createElement(Adder),
-    document.getElementById('root')
-    );
-    
+  const rootElement = document.getElementById('root');
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(React.createElement(Adder));
