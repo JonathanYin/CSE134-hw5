@@ -24,3 +24,4 @@ class ButtonCount extends HTMLElement {
   // Define the element in the custom elements registry
   customElements.define("button-count", ButtonCount);
   
+  export default ButtonCount;
